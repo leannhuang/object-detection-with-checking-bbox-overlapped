@@ -94,9 +94,7 @@ def get_bag_dict(results, prob, bag_left, bag_right, shape):
     bag_preds_rect = sorted(bag_preds_rect)
 
     bag_left.bbox = bag_preds_rect[0]
-    #print(f'bag_left: {bag_left.bbox}')
     bag_right.bbox = bag_preds_rect[1]
-    #print(f'bag_right: {bag_right.bbox}')
 
     return bag_left, bag_right
 
