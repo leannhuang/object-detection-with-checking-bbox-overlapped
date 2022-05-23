@@ -10,8 +10,8 @@ output: inference result on top of the video
 
 ## Steps
 1. Create an object detection model as in [here](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector)
-2. Reference the object you defined in custom vision and modify the objects set accordingly[here](https://github.com/leannhuang/ai-inference-on-top-of-the-video/blob/main/ai_inference_bbox.py#L13) 
-3. After publishing the iteration, fill in the values of `prediction_key`, `ENDPOINT`,` project_id`,`PUBLISH_ITERATION_NAME` in the custom vision credentials information block[here](https://github.com/leannhuang/ai-inference-on-top-of-the-video/blob/main/ai_inference_bbox.py#L24)
+2. Reference the object you defined in custom vision and modify the objects set accordingly [here](https://github.com/leannhuang/object-detection-with-checking-bbox-overlapped/blob/main/check_bbox_overlapped.py#L27) 
+3. After publishing the iteration, fill in the values of `prediction_key`, `ENDPOINT`,` project_id`,`PUBLISH_ITERATION_NAME` in the custom vision credentials information block [here](https://github.com/leannhuang/object-detection-with-checking-bbox-overlapped/blob/main/check_bbox_overlapped.py#L40)
 4. Put the video for inference under the ai-inference-on-top-of-the-video folder, and fill in the value of the  `video_name`
 5. Open your terminal and type the command with the probablity threshold(first argument) like below 
 ```

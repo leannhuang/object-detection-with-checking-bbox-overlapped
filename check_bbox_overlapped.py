@@ -24,7 +24,6 @@ def assign_item():
 
 def main():
     # define your object here 
-    #object_list = ['Filet-O-Fish', 'Soda', 'French Fries', 'McNuggets']
     object_set = ('Filet-O-Fish', 'Soda', 'French Fries', 'McNuggets', 'Double Cheeseburger', 'Hot \'n Spicy McChicken', 'McChicken')
 
     # arguments
