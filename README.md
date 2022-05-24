@@ -15,7 +15,7 @@ output: inference result on top of the video
 2. Reference the object you defined in custom vision and modify the objects set accordingly [here](https://github.com/leannhuang/object-detection-with-checking-bbox-overlapped/blob/main/check_bbox_overlapped.py#L27) 
 3. Define the correct food items in the [bag1](https://github.com/leannhuang/object-detection-with-checking-bbox-overlapped/blob/main/check_bbox_overlapped.py#L17) and [bag2](https://github.com/leannhuang/object-detection-with-checking-bbox-overlapped/blob/main/check_bbox_overlapped.py#L18)
 4. After publishing the iteration, fill in the values of `prediction_key`, `ENDPOINT`,` project_id`,`PUBLISH_ITERATION_NAME` in the custom vision credentials information block [here](https://github.com/leannhuang/object-detection-with-checking-bbox-overlapped/blob/main/check_bbox_overlapped.py#L39)
-5. Put the video for inference under the ai-inference-on-top-of-the-video folder, and fill in the value of the  `video_name`
+5. Put the video for inference under the object-detection-with-checking-bbox-overlapped folder, and fill in the value of the  `video_name`
 6. Open your terminal and type the command with the probablity threshold(first argument) like below 
 ```
    python ai_inference_bbx_bk.py 0.99
