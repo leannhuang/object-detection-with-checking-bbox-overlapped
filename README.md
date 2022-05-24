@@ -1,6 +1,8 @@
 # object-detection-with-checking-bbox-overlapped
 The goal of this sample code is to guide you to output a video with bbox on top of it and check if the food items and bag are overlapped by leveraging Azure Custom Vision. We assume that there are two bags in the table with the correct food items defined. 
 
+![mcd](docs/images/mcd.png)
+
 input: video
 
 output: inference result on top of the video
