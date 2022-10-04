@@ -18,7 +18,7 @@ output: inference result on top of the video
 5. Put the video for inference under the object-detection-with-checking-bbox-overlapped folder, and fill in the value of the  `video_name` [here](https://github.com/leannhuang/object-detection-with-checking-bbox-overlapped/blob/main/check_bbox_overlapped.py#L48)
 6. Open your terminal and type the command with the probablity threshold(first argument) like below 
 ```
-   python ai_inference_bbx_bk.py 0.99
+   python check_bbox_overlapped.py 0.99
 ```
 6. You will see the log below to know the current process
    1. Read the video SUCESSFULLY. The fps of the video is XX.XXXXX
